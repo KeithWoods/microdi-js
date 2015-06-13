@@ -540,3 +540,4 @@ bar is : [barInstance]
 
 Discussed [above](#injection-factories), this resolver injects a factory that can be called multiple times to create the dependency.
 
+      
