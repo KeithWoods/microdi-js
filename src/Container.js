@@ -106,8 +106,7 @@ export default class Container {
             error;
         mapings = this._registrationGroups[groupName];
         if (!mapings) {
-            error = utils.sprintf('No group with name [%s] registered', groupName);
-            throw new Error(error);
+            return [];
         }
         for (let i = 0, len = mapings.length; i < len; i++) {
             items.push(this.resolve(mapings[i]));
