@@ -122,6 +122,11 @@ describe('Container', () =>  {
                 expect(B.isPrototypeOf(group[1])).toEqual(true);
             });
 
+            it('should return an empty array if no instance was registered for the group', () => {
+                var group = container.resolveGroup('emptyGroup');
+                expect(group.length).toBe(0);
+            });
+
             it('should throw if item already registered in group', () =>  {
                 let A = createObject();
                 expect(() => {
