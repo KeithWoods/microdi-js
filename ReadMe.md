@@ -1,3 +1,10 @@
+# Important: Code Moved
+This code has been moved into [esp-js](https://github.com/esp/esp-js), see [esp-js-di](https://github.com/esp/esp-js/tree/master/packages/esp-js-di).
+
+
+---
+
+
 [![Build Status](https://travis-ci.org/KeithWoods/microdi-js.svg?branch=master)](https://travis-ci.org/KeithWoods/microdi-js)
 [![npm](https://img.shields.io/npm/v/microdi-js.svg)](https://www.npmjs.com/package/microdi-js)
 
